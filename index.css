@@ -109,10 +109,10 @@ body {
   color: #0e0500;
   font: size 20px;
   font-family: "Roboto Mono", monospace;
-  /* background-color: #ddb9a3; */
 }
 h1 {
   font-family: "Chelsea Market", cursive;
+  font-size: 40px;
 }
 h2,
 h1 {
@@ -150,3 +150,42 @@ nav {
 /* h1{
    text-align:center;
 } */
+.first-section {
+  background-color: #ddb9a3;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  width: 1000px;
+  margin: 0px auto;
+}
+.head-img {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.intro {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  border: 1px solid blue;
+  margin: 0px 0px 20px 15px;
+}
+/* .zero {
+  border: 1px dotted purple;
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+} */
+.fire,
+.camper {
+  width: 100px;
+  height: 100px;
+}
+.second-section,
+.third-section {
+  border: 1px dotted green;
+  margin: 0 auto;
+  width: 50%;
+}
